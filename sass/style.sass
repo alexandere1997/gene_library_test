@@ -1,0 +1,245 @@
+@import "fonts"
+body
+  background-color: #f4f4f6;
+  height: 1600px
+  display: flex
+  justify-content: center
+  align-items: center
+.gift
+  display: flex
+  justify-content: center
+  align-items: center
+  &__container
+    width: 1300px
+    background-color: #fff
+    box-shadow: 0 4px 26px 0 #e1e1e1;
+    border-radius: 8px;
+  &__head
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 430px;
+    margin-left: 45px
+    margin-top: 30px
+  &__images
+    img
+      width: 100%
+  &__name
+    a
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: 1.5px;
+      color: #6d7278;
+      text-decoration: none
+  &__prev
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #6d7278;
+    text-decoration: none
+  &__available
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #8a7c5d;
+    text-decoration: none
+  &__info
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 286px;
+    justify-content: space-between;
+  &__title
+    margin-left: 45px
+    h3
+      font-family: Roboto;
+      font-size: 30px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.27;
+      letter-spacing: normal;
+      color: #000000;
+    p
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #000000;
+  &__popup
+    height: 88px
+    background-color: #142536
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-top: solid 1px #405265
+    cursor: pointer
+  &__text
+    margin-left: 45px
+    p
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.27;
+      letter-spacing: normal;
+      color: #ffffff;
+  &__popupMod
+    border-bottom-left-radius: 8px
+    border-bottom-right-radius: 8px
+  &__arrow
+    margin-right: 45px
+    img
+      cursor: pointer
+  &__information
+    display: none
+    background-color: #142536
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  &__content
+    margin-left: 45px
+    color: #fff
+    p
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #ffffff;
+      a
+        text-decoration: none
+        color: #5a88c1
+        border-bottom-style: dotted
+        transition: 0.3s
+        &:hover
+          border-bottom-style: none
+  &__img
+    margin-left: 118px
+  &__line
+    width: 1210px
+    height: 2px
+    background-color: #405265
+  &__inner
+    width: 100%;
+    display: flex;
+    padding-top: 29px
+    padding-bottom: 29px
+  &__forms
+    background-color: #142536
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 8px
+    border-bottom-right-radius: 8px
+  &__block
+    width: 100%;
+    display: flex;
+    padding-top: 29px
+  &__image
+    margin-left: 111px
+  &__wrapper
+    margin-left: 45px
+    p
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #ffffff;
+    form
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+  &__login
+    background-color: #142536;
+    border: none;
+    border-bottom: 1px solid white;
+    color: #fff
+    width: 281px
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+  &__password
+    background-color: #142536;
+    border: none;
+    border-bottom: 1px solid white;
+    color: #fff
+    width: 281px
+    margin-top: 30px
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+  &__btn
+    margin-top: 45px
+    background-color: #142536;
+    color: #fff
+    border-radius: 29.5px
+    width: 214px;
+    height: 50px;
+    border: solid 1px #ffffff;
+    cursor: pointer
+    margin-bottom: 30px
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.4s
+    &:hover
+      background-color: #fff
+      color: #000
+  &__inputs
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img
+      display: none
+      cursor: pointer
+      margin-left: -13px;
+  &__clear_two
+    margin-top: 30px
+  &__media_img
+    display: none
+.act
+  display: flex
+.popup__one
+  margin-top: -4px;
+
+@import "media"
